@@ -2,7 +2,10 @@
 
 A cell-based wildfire simulator for exploring fire spread and suppression strategies.
 
-I wanted to build something that would help people understand how wildfires spread, why suppression is difficult, and why prevention matters. I started a school research project to develop an interactive simulator that could eventually run on mobile devices. The challenge was to represent a large, complex natural process with limited computing resources.
+I wanted to build something that would help people understand how wildfires spread, why suppression is difficult, and why prevention matters.
+I started a school project to develop an interactive simulator that could eventually run on mobile devices.
+The challenge was to represent a large, complex natural process with limited computing resources.
+Hope that this can be useful to understand about wildfires. 
 
 ## Installation
 
