@@ -2,9 +2,7 @@
 
 A cell-based wildfire simulator for exploring fire spread and suppression strategies.
 
-Three years of volunteering to help refugee children in Nigeria led me to think about whom science and technology should serve. Things I had taken for granted could make a real difference to people elsewhere and to future generations. I wanted to put what I was learning to use beyond the classroom.
-
-The Uiseong wildfire gave that thought a direction. I wanted to build something that would help people understand how fires spread, why suppression is difficult, and why prevention matters. I started a school research project to develop an interactive simulator that could eventually run on mobile devices. The challenge was to represent a large, complex natural process with limited computing resources.
+I wanted to build something that would help people understand how wildfires spread, why suppression is difficult, and why prevention matters. I started a school research project to develop an interactive simulator that could eventually run on mobile devices. The challenge was to represent a large, complex natural process with limited computing resources.
 
 ## Installation
 
