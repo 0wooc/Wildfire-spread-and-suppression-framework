@@ -1,0 +1,24 @@
+{
+  "map_name": "snu",
+  "files": {
+    "dem": "maps/snu/dem_final.tif",
+    "preview_map": "maps/snu/preview_map.png",
+    "preview_map_smooth": "maps/snu/preview_map_smooth.png",
+    "directional_slope_factor": "maps/snu/directional_slope_factor.npy",
+    "slope_preview": "maps/snu/slope_preview.png"
+  },
+  "grid_width": 135,
+  "grid_height": 134,
+  "cell_size_m": 30.0,
+  "crs": "EPSG:5179",
+  "elevation_min_m": 41.0056037902832,
+  "elevation_max_m": 618.369140625,
+  "filled_edge_cells": 126,
+  "directional_link_count": 143110,
+  "slope_class_counts": {
+    "0": 88362,
+    "10": 28318,
+    "20": 19971,
+    "30": 6459
+  }
+}

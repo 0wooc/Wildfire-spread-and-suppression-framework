@@ -1,0 +1,24 @@
+{
+  "map_name": "bulam",
+  "files": {
+    "dem": "maps/bulam/dem_final.tif",
+    "preview_map": "maps/bulam/preview_map.png",
+    "preview_map_smooth": "maps/bulam/preview_map_smooth.png",
+    "directional_slope_factor": "maps/bulam/directional_slope_factor.npy",
+    "slope_preview": "maps/bulam/slope_preview.png"
+  },
+  "grid_width": 74,
+  "grid_height": 67,
+  "cell_size_m": 30.0,
+  "crs": "EPSG:5179",
+  "elevation_min_m": 34.17457580566406,
+  "elevation_max_m": 488.95941162109375,
+  "filled_edge_cells": 0,
+  "directional_link_count": 38822,
+  "slope_class_counts": {
+    "0": 24741,
+    "10": 6358,
+    "20": 4961,
+    "30": 2762
+  }
+}

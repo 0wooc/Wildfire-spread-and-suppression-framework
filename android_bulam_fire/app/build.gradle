@@ -1,0 +1,43 @@
+plugins {
+    id "com.android.application"
+}
+
+android {
+    namespace "com.genius.firespread"
+    compileSdk 36
+
+    defaultConfig {
+        applicationId "com.genius.firespread"
+        minSdk 23
+        targetSdk 36
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "com.genius.firespread.FireEngineInstrumentation"
+    }
+
+    signingConfigs {
+        release {
+            def storeFilePath = project.findProperty("BULAM_FIRE_RELEASE_STORE_FILE")
+            def storePasswordValue = project.findProperty("BULAM_FIRE_RELEASE_STORE_PASSWORD")
+            def keyAliasValue = project.findProperty("BULAM_FIRE_RELEASE_KEY_ALIAS")
+            def keyPasswordValue = project.findProperty("BULAM_FIRE_RELEASE_KEY_PASSWORD")
+            if (storeFilePath && storePasswordValue && keyAliasValue && keyPasswordValue) {
+                storeFile file(storeFilePath)
+                storePassword storePasswordValue
+                keyAlias keyAliasValue
+                keyPassword keyPasswordValue
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile("proguard-android-optimize.txt")
+            if (project.findProperty("BULAM_FIRE_RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "map_name": "flat_square",
+  "files": {
+    "dem": "maps/flat_square/dem_final.tif",
+    "preview_map": "maps/flat_square/preview_map.png",
+    "preview_map_smooth": "maps/flat_square/preview_map_smooth.png",
+    "directional_slope_factor": "maps/flat_square/directional_slope_factor.npy",
+    "slope_preview": "maps/flat_square/slope_preview.png",
+    "weather_data": null
+  },
+  "grid_width": 145,
+  "grid_height": 145,
+  "cell_size_m": 30.0,
+  "crs": "EPSG:5179",
+  "elevation_min_m": 100.0,
+  "elevation_max_m": 100.0,
+  "filled_edge_cells": 0,
+  "filled_source_cells": 0,
+  "filled_projected_cells": 0,
+  "directional_link_count": 166464,
+  "slope_class_counts": {
+    "0": 166464,
+    "10": 0,
+    "20": 0,
+    "30": 0
+  }
+}

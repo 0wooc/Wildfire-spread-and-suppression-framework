@@ -1,0 +1,27 @@
+{
+  "map_name": "california",
+  "files": {
+    "dem": "maps/california/dem_final.tif",
+    "preview_map": "maps/california/preview_map.png",
+    "preview_map_smooth": "maps/california/preview_map_smooth.png",
+    "directional_slope_factor": "maps/california/directional_slope_factor.npy",
+    "slope_preview": "maps/california/slope_preview.png",
+    "weather_data": "California Caldor weather&area 24h.csv"
+  },
+  "grid_width": 218,
+  "grid_height": 145,
+  "cell_size_m": 30.0,
+  "crs": "EPSG:5179",
+  "elevation_min_m": 881.4508056640625,
+  "elevation_max_m": 1312.3983154296875,
+  "filled_edge_cells": 0,
+  "filled_source_cells": 0,
+  "filled_projected_cells": 0,
+  "directional_link_count": 250706,
+  "slope_class_counts": {
+    "0": 176833,
+    "10": 54954,
+    "20": 16981,
+    "30": 1938
+  }
+}

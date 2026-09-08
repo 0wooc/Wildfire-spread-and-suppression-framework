@@ -1,0 +1,29 @@
+{
+  "map_name": "slope_right_30deg",
+  "files": {
+    "dem": "maps/slope_right_30deg/dem_final.tif",
+    "preview_map": "maps/slope_right_30deg/preview_map.png",
+    "preview_map_smooth": "maps/slope_right_30deg/preview_map_smooth.png",
+    "directional_slope_factor": "maps/slope_right_30deg/directional_slope_factor.npy",
+    "slope_preview": "maps/slope_right_30deg/slope_preview.png",
+    "weather_data": null
+  },
+  "grid_width": 145,
+  "grid_height": 145,
+  "cell_size_m": 30.0,
+  "crs": "EPSG:5179",
+  "elevation_min_m": 0.0,
+  "elevation_max_m": 2494.1533203125,
+  "slope_direction": "right",
+  "slope_angle_degrees": 30,
+  "filled_edge_cells": 0,
+  "filled_source_cells": 0,
+  "filled_projected_cells": 0,
+  "directional_link_count": 166464,
+  "slope_class_counts": {
+    "0": 104112,
+    "10": 0,
+    "20": 41472,
+    "30": 20880
+  }
+}
